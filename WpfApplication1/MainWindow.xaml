@@ -16,7 +16,7 @@
         <Border Grid.Row="1" BorderBrush="Black" Background="#FF009CFF" BorderThickness="1" Height="700" VerticalAlignment="Top" Width="auto" />
         <Image Grid.Row="0" Source="Images\simplerlogo.png" x:Name="Logo" HorizontalAlignment="Center" Height="55"  VerticalAlignment="Center" Width="263" />
         <Label Grid.Row="1" Content="&#x9;WELCOME" Foreground="White" HorizontalAlignment="Center" Margin="168,71.4,233.2,0" VerticalAlignment="Top" Height="49" Width="242" FontFamily="Trajan Pro" FontSize="22" FontWeight="Bold"/>
-        <Label Grid.Row="1" x:Name="lbl" Content="" Foreground="White" Margin="203,117.4,193.2,0" HorizontalContentAlignment="Center" VerticalAlignment="Top" Width="247" FontSize="24" FontWeight="Bold"/>
+        <Label Grid.Row="1" x:Name="lbl" Content="" Foreground="White" Margin="83,117.4,82.2,0" HorizontalContentAlignment="Center" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
         <Button Grid.Row="1" Content="Ready to Connect ?" HorizontalAlignment="Center" Margin="190,226.4,179.2,0" VerticalAlignment="Top" Width="274" Click="Button_Click" Height="49"/>
         <wpfx:BusyIndicator Name="BusyBar"  Margin="0,173.4,0.2,397.4" Grid.Row="1" BusyContent="Trying to connect Active Directory.                            Please wait..."/>
     </Grid>
